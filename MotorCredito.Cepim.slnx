@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MotorCredito.Cepim.Api/MotorCredito.Cepim.Api.csproj" />
+    <Project Path="src/MotorCredito.Cepim.Carga/MotorCredito.Cepim.Carga.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MotorCredito.Cepim.Api.BancosTests/MotorCredito.Cepim.Api.BancosTests.csproj" />
+    <Project Path="tests/MotorCredito.Cepim.Api.IntegrationTests/MotorCredito.Cepim.Api.IntegrationTests.csproj" />
+    <Project Path="tests/MotorCredito.Cepim.Api.UnitTests/MotorCredito.Cepim.Api.UnitTests.csproj" />
+    <Project Path="tests/MotorCredito.Cepim.Carga.Tests/MotorCredito.Cepim.Carga.Tests.csproj" />
+  </Folder>
+</Solution>

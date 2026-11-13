@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: motor-credito-cepim
+  labels:
+    app.kubernetes.io/name: motor-credito-cepim
+spec:
+  type: ClusterIP   # só dentro do cluster; exposição externa via Ingress/Gateway do ambiente
+  selector:
+    app.kubernetes.io/name: motor-credito-cepim
+  ports:
+    - name: http
+      port: 80
+      targetPort: http
